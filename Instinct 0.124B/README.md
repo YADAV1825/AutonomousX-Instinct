@@ -70,23 +70,23 @@ The training pipeline includes:
 ```mermaid
 graph TD
     %% Dataset and Preparation
-    Data[Dataset: DOLMA\nRaw Text Data]
-    Tokenizer[BPE Tokenizer\nVocabulary Construction]
-    TokenizedData[Tokenized Data\nReady for Training]
+    Data["Dataset: DOLMA\nRaw Text Data"]
+    Tokenizer["BPE Tokenizer\nVocabulary Construction"]
+    TokenizedData["Tokenized Data\nReady for Training"]
 
     %% Model Architecture
-    Model[v-4 (128) pmap\nTransformer Decoder\n124m Parameters]
-    RoPE[RoPE Positional Embeddings]
+    Model["v-4 (128) pmap\nTransformer Decoder\n124m Parameters"]
+    RoPE["RoPE Positional Embeddings"]
 
     %% Training Pipeline
-    Optimizer[Optimizer: AdamW]
-    ForwardPass[Forward Pass\nCompute Loss]
-    BackwardPass[Backward Pass\nCompute Gradients]
-    Update[Parameter Update]
+    Optimizer["Optimizer: AdamW"]
+    ForwardPass["Forward Pass\nCompute Loss"]
+    BackwardPass["Backward Pass\nCompute Gradients"]
+    Update["Parameter Update"]
 
     %% Logging and Checkpoints
-    Checkpoints[Model Checkpoints\nSaved up to 25B tokens]
-    Logs[Training Logs\nLoss & Perplexity]
+    Checkpoints["Model Checkpoints\nSaved up to 25B tokens"]
+    Logs["Training Logs\nLoss & Perplexity"]
 
     %% Connections
     Data --> Tokenizer
