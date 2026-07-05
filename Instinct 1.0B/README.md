@@ -2,6 +2,8 @@
 
 **[autonomousX/Instinct-1-1B on Hugging Face](https://huggingface.co/autonomousX)**
 
+**[Training scripts and Logs on GITHUB](https://github.com/YADAV1825/AutonomousX-Instinct)**
+
 *Instinct-1-1B is a fully reproducible, from-scratch trained 1B parameter language model trained on 85B tokens using TPU v4 infrastructure.*
 
 **Instinct-1-1B** is a 1B parameter Large Language Model built entirely from scratch under the **AutonomousX** organization. 

@@ -2,6 +2,8 @@
 
 **[autonomousX/Instinct-1-124m on Hugging Face](https://huggingface.co/autonomousX)**
 
+**[Training scripts and Logs on GITHUB](https://github.com/YADAV1825/AutonomousX-Instinct)**
+
 *Instinct-1-124m is a fully reproducible, from-scratch trained 124m parameter language model trained on 25B tokens using TPU v4 infrastructure.*
 
 **Instinct-1-124m** is a 124m parameter Large Language Model built entirely from scratch under the **AutonomousX** organization. 

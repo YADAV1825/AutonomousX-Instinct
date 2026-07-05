@@ -2,6 +2,9 @@
 
 **[autonomousX on Hugging Face](https://huggingface.co/autonomousX)**
 
+**[Training scripts and Logs on GITHUB](https://github.com/YADAV1825/AutonomousX-Instinct)**
+
+
 AutonomousX is an ambitious open-source project by **Rohit Yadav** where a complete family of Large Language Models (LLMs) was built entirely from scratch. 
 
 This repository tracks the training logs, model architectures, and analytics for various LLM parameter sizes, ensuring a highly documented, educational, and reproducible process for understanding how language models scale.
